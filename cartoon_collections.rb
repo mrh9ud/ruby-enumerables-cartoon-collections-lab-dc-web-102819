@@ -15,6 +15,6 @@ end
 
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array_of_strings.each_with_index { |value, index| (value & cheese_types.any?)}
+  array_of_strings.each_with_index { |value, index| (value & %w[cheese_types].any?)}
     
 end
