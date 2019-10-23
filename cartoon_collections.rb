@@ -3,7 +3,7 @@ def roll_call_dwarves(source_array)
   
 end
 
-def summon_captain_planet
+def summon_captain_planet(array)
   
   
 end
